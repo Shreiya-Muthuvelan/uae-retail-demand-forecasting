@@ -1,0 +1,22 @@
+[project]
+name = "uae-retail-demand-forecasting"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shreiya-Muthuvelan", email = "shreiyavel@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "mlflow>=3.0.0",
+    "pandas>=2.2,<3",
+    "scikit-learn>=1.9.0",
+    "xgboost>=3.4.1",
+]
+
+[project.scripts]
+uae-retail-demand-forecasting = "uae_retail_demand_forecasting:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"

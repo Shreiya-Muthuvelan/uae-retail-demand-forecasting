@@ -7,4 +7,11 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+# .gitignore
+data/
+mlruns/
+mlflow.db
+__pycache__/
+*.pyc
+.venv/
+uv.lock
